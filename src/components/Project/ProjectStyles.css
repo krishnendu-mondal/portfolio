@@ -1,0 +1,53 @@
+.project{
+    position: relative;
+    width: 290px;
+    height:280px;
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+    border-radius: 15px;
+    background: #345;
+    transition: 0.15s ease;
+}
+.project:hover{
+    box-shadow: 0 0 0 2px #fff;
+}
+.project h2{
+    width: fit-content;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.project span{
+    color: aquamarine;
+}
+.project p{
+    margin-top: 5px;
+    font-size: 14.5px;
+}
+.project button{
+    background: transparent;
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 15px;
+    transition: 0.15s ease;
+}
+.project button:hover{
+    background: #64DFBC;
+    color: #345;
+    font-weight: 500;
+    
+}
+.project button .logo{
+    transition: 0.15s ease;
+}
+.project button:hover .logo{
+    fill: #345;
+
+}

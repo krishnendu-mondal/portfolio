@@ -1,0 +1,31 @@
+.achievement{
+    background: #334455;
+    height: 150px;
+    width: 400px;
+    border-radius: 15px;
+    padding: .8rem 1.2rem;
+    margin: 1rem;
+    transition: 0.15s ease;
+}
+
+.achievement:hover{
+    box-shadow: 0 0 0 2px #fff;
+}
+
+.achievement h2{
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: aquamarine;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.achievement h2 .icon{
+    fill: gold;
+}
+
+.achievement p{
+    font-size: 14.5px;
+}

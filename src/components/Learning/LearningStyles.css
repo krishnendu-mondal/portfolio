@@ -1,0 +1,9 @@
+.learning{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: .8rem 0 .8rem .5rem;
+    min-width: 220px;
+    background: #111;
+}

@@ -1,0 +1,124 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    background: #111;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 7vw;
+}
+
+.navbar .links{
+    transition: right 0.2s ease;
+}
+
+.navbar .logo a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #eee;
+}
+
+.navbar .logo img{
+    height: 30px;
+    width: 30px;
+}
+
+.navbar .links ul{
+    list-style: none;
+    display: flex;
+    gap: 3vw;
+}
+
+.links ul li a{
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #eee;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.links .active{
+    color: #ac5;
+}
+
+.links ul a:hover{
+    color: #ac5;
+}
+
+.links ul a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 1.5px;
+    background: inherit;
+    transition: 0.3s ease-in-out;
+}
+
+.links ul a:hover::after, .links ul .active::after{
+    width: 70%;
+    background: rgb(124, 149, 59);
+}
+
+.mobile-navigations{
+    font-size: 20px;
+    display: none;
+}
+
+.close{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    
+    .navbar .links{
+        position: fixed;
+        right: -30rem;
+        top: 0;
+        z-index: 10;
+        width: 250px;
+        height: 100vh;
+        padding: 1rem;
+        background: #222;
+    }
+
+    .navbar .active-menu{
+        right: 0;
+        box-shadow: 0 30px 100px 100vw rgba(0, 0, 0, 0.35);
+    }
+
+    .navbar .links ul{
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: 20px 30px;
+    }
+
+    .navbar .links .close{
+        cursor: pointer;
+    }
+
+    .navbar .links a{
+        width: fit-content;
+    }
+
+    .mobile-navigations{
+        display: initial;
+        color: blue;
+    }
+    .mobile-navigations i{
+        cursor: pointer;
+    }
+    .close{
+        display: initial;
+    }
+}
