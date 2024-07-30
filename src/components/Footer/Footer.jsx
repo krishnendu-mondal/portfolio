@@ -1,10 +1,10 @@
 import React from 'react'
 import './FooterStyles.css';
 
-function Footer(props) {
+function Footer() {
   return (
     <div className='footer'>
-        {props.paragraph}
+        Made by Krishnendu Mondal. &copy; 2024, all right resereved.
     </div>
   )
 }

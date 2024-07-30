@@ -14,7 +14,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
         </Routes>
       </div>
-      <Footer paragraph={"Made by Krishnendu Mondal. &copy; 2024, all right resereved."}/>
+      <Footer/>
     </BrowserRouter>  
     </>
   )
