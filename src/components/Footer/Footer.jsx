@@ -4,7 +4,7 @@ import './FooterStyles.css';
 function Footer() {
   return (
     <div className='footer'>
-        Made by Krishnendu Mondal. &copy; 2024, all right resereved.
+        Made by Krishnendu Mondal. &copy; 2024, all right reserved.
     </div>
   )
 }
