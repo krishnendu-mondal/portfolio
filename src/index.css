@@ -19,3 +19,26 @@ body{
 .container{
   padding: 5% 7% 0 7%;
 }
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background ease .4s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
