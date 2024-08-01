@@ -59,7 +59,7 @@ function Contact() {
 
       {
         emptyFieldErrorToast && <div className="notification notification-error">
-          <PiWarningCircle size={18} style={{fill:"crimson"}}/>Input fields can't be empty.</div>
+          <PiWarningCircle size={18} style={{fill:"crimson"}}/>Please fill all the fields.</div>
       }
       {
         successToast && <div className="notification notification-success">
@@ -71,7 +71,6 @@ function Contact() {
           <PiWarningCircle size={18} style={{fill:"crimson"}}/> Something went wrong! Email did not sent.</div>
       }
       
-
       <button type="submit" value="submit">Submit</button>
     </form>
   );
