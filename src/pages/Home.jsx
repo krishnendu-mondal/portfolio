@@ -137,10 +137,10 @@ const projects = [
   },
   {
     id:3,
-    title:"Khaanakhajana",
+    title:"Khaanakhazana",
     about:"Food website design",
     desc:"This is a landing page design of a food website, design contains hero section with carousel and greeting according to time. Registration and login page, contact form and cards for food items.",
-    url:"https://krishnendu-mondal.github.io/khaanakhajana/"
+    url:"https://krishnendu-mondal.github.io/khaanakhazana/"
   },
   {
     id:4,
